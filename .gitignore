@@ -1,34 +1,22 @@
-cmake-build-*/
-out/
+# Build folder
+build/
 
-# --- Compiled binaries (in case anyone builds in-source too) ---
-kv-server
-kv-client
-kv-benchmark
+# Compiled files
 *.o
-*.obj
 *.a
-*.so
-*.dylib
-*.dll
-*.exe
 *.out
 
-# --- Runtime / generated data at project root (NOT source) ---
-data/*.log
-data/*.db
-!data/.gitkeep
+# WAL log file
+data/wal.log
 
-# --- IDE / editor ---
-.vscode/
-.idea/
-*.swp
-*~
-
-# --- OS junk ---
+# Mac system files
 .DS_Store
-Thumbs.db
 
-# --- Misc ---
-*.tmp
-core
+# VS Code
+.vscode/
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile

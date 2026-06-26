@@ -1,4 +1,0 @@
-SET age 45
-SET token abc EX 5
-DEL name
-DEL age
