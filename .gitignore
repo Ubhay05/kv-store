@@ -1,0 +1,34 @@
+cmake-build-*/
+out/
+
+# --- Compiled binaries (in case anyone builds in-source too) ---
+kv-server
+kv-client
+kv-benchmark
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# --- Runtime / generated data at project root (NOT source) ---
+data/*.log
+data/*.db
+!data/.gitkeep
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+*.tmp
+core
