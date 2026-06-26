@@ -1,0 +1,5 @@
+/Users/ubhayendrasai/kv-store/build/CMakeFiles/kv-server.dir
+/Users/ubhayendrasai/kv-store/build/CMakeFiles/kv-client.dir
+/Users/ubhayendrasai/kv-store/build/CMakeFiles/kv-benchmark.dir
+/Users/ubhayendrasai/kv-store/build/CMakeFiles/edit_cache.dir
+/Users/ubhayendrasai/kv-store/build/CMakeFiles/rebuild_cache.dir
